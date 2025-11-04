@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('pull') {
             steps {
-                git branch: 'main', url: 'https://github.com/Rohanchougule9027/Automatic-Files-Organizer-Lambda-S3-SNS.git'
+                git branch: 'master', url: 'https://github.com/iamtruptimane/student-app.git'
             }
         }
         stage('build') {
